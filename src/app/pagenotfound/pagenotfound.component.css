@@ -1,0 +1,10 @@
+.pagenotfound{
+    color: #f7327a;
+    font-weight: 600;
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    margin: 10% 2%;
+}

@@ -1,0 +1,39 @@
+.licensingimage{
+    width: 60%;
+   
+}
+.licensingimage img{
+    width: 100%;
+}
+.license_head{
+    color: #f7327a;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.license_content{
+    text-align: justify;
+    font-weight: 300;
+    opacity: 0.9;
+}
+.logo_image{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+.logo_image img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:768px){
+    .logo_image{
+        height: 75%;
+        width: 75%;
+    }
+}
+@media (max-width:500px){
+    .logo_image{
+        height: 90%;
+        width: 90%;
+    }
+}

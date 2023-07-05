@@ -1,0 +1,144 @@
+.head{
+    height: fit-content;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../../assets/jason-dent-SnXIF8_2oPw-unsplash.jpg");
+    background-position: 100% 100%;
+    background-repeat: repeat-x;
+    background-attachment: initial;
+
+    
+   
+}
+
+.contact-bg{
+    /* height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../../assets/bulding.jpg");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-bg h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.contact-bg h2{
+    font-size: 3.3rem;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+}
+.line div{
+    margin: 0 0.2rem;
+}
+.line div:nth-child(1),
+.line div:nth-child(3){
+    height: 3px;
+    width: 70px;
+    background: #f7327a;
+    border-radius: 5px;
+}
+.line{
+    display: flex;
+    align-items: center;
+}
+.line div:nth-child(2){
+    width: 10px;
+    height: 10px;
+    background: #f7327a;
+    border-radius: 50%;
+}
+.text{
+    font-weight: 300;
+    opacity: 0.9;
+}
+.contact-bg .text{
+    margin: 1.6rem 0;
+}
+
+.nav-link{
+    color: white !important;
+    padding: 7px 10px;
+    font-size: large;
+}
+.activeLink{ 
+    /* background-color: #f7327a; */
+    color: #f7327a !important;
+   
+}
+.navbar{
+    min-height: 90px;  
+}
+
+ul{
+    text-align: center;
+    --bs-scroll-height: 274px !important;
+}
+ul .nav-item{
+    margin: 0 18px;
+    
+}
+.fas{
+    font-size: 2rem;
+color: #fff;
+}
+@media (max-width:550px){
+    .navbar{
+        min-height: 45px !important;
+        padding: 2px !important;
+     }
+     .navbar-brand img{
+        height:45px ;
+        width:70px ;
+     }
+     .fas{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:500px){
+    .contact-bg h2{
+        font-size: 2rem;
+    }
+    .contact-bg h3{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .contact-bg p{
+        font-size: .8rem;
+    }
+}
+@media screen and (min-width: 768px){
+   
+    .contact-bg .text{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .contact-bg .text{
+        width: 50%;
+    }
+    .contact-form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .contact-info{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

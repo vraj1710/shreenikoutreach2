@@ -1,0 +1,165 @@
+/* #carouselExampleIndicators{
+    height: 100px;
+} */
+/* .carousel{
+   max-height: 550px !important;
+}
+.carousel-inner{
+   max-height: 550px !important;
+}
+.carousel img{
+   min-height: 550px !important;
+} */
+.carousel-item {
+    object-fit: cover;
+    height: 85vh;
+}
+
+.carousel-item img {
+
+    height: 100%;
+}
+
+.intro {
+
+    display: flex;
+    justify-content: center;
+
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.para {
+font-size: .8rem;
+    text-align: justify;
+    opacity: 0.9;
+}
+
+.intro .name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.details {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: black;
+}
+
+.intro_left {
+    background-color: #e7e7e7;
+    padding: 0 25px;
+    border-radius: 15px;
+}
+
+.intro_right {
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.intro_right i {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 8px;
+    color: #dc9718;
+}
+
+.intro_right span {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 8px;
+    color: #5c5257;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0%;
+}
+
+ul li {
+    height: 10rem;
+    width: 19rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* border-radius: 1rem; */
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+ul li img {
+    height: 100%;
+    width: 100%;
+}
+
+
+@media (max-width:1000px) {
+    .intro {
+        flex-direction: column;
+    }
+    .carousel-item {
+        height: 65vh;
+    }
+}
+
+@media (max-width:777px) {
+    .container {
+        max-width: 688px !important;
+    }
+
+    .intro_right {
+        padding: 0%;
+        margin: 0;
+    }
+
+    .intro_right span,
+    i {
+        font-size: 3rem !important;
+        padding: 0%;
+        margin: 0;
+    }
+    
+    .carousel-item {
+        height: 55vh;
+    }
+}
+
+@media (max-width:520px) {
+    .intro .name {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .details {
+        font-size: .8rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    .intro_left {
+        padding: .5rem !important;
+    }
+
+    .intro_right span,
+    i {
+        font-size: 2.3rem !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li {
+        height: 10rem;
+        width: 19rem;
+    }
+
+    .carousel-item {
+
+        height: 45vh;
+    }
+}

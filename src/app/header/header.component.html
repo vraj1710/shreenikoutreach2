@@ -1,0 +1,98 @@
+<!-- <div class="header-back">
+    
+    <nav class="navbar navbar-expand-lg navbar-light  header">
+        <div class="container-fluid">
+            <a class="navbar-brand" routerLink="/">
+                <img src="../../assets/Logo.png" alt="image not found">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" routerLink="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" routerLink="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" routerLink="/distribution">Distribution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" routerLink="/marketing">Marketing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" routerLink="/Licensing">Licensing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" routerLink="/contactus">Contact Us</a>
+                    </li>
+                </ul>
+    
+            </div>
+        </div>
+    </nav>
+
+    <div class="text-center overview">
+        <p class="m-0 p-0 name">Shreenik Outreach</p>
+        <p class="m-0 p-0 details">
+            <span class="px-3">Distribution</span>|
+            <span class="px-3">Marketing</span>|
+            <span class="px-3">Licensing</span>  
+         </p>
+    </div>
+</div> -->
+
+<div class="head">
+    <nav class="navbar navbar-expand-lg  p-0 header">
+        <div class="container-fluid navholder" >
+            <a class="navbar-brand" routerLink="/home">
+                <img src="../../assets/Logo.png" height="70px"  width="100px"   alt="image not found">
+                <!-- <p>Shreenik outreach</p> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                <ul class="navbar-nav ms-auto  my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" [routerLinkActive]="'activeLink'" routerLink="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" [routerLinkActive]="'activeLink'" routerLink="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" [routerLinkActive]="'activeLink'" routerLink="/distribution">Distribution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" [routerLinkActive]="'activeLink'" routerLink="/marketing">Marketing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" [routerLinkActive]="'activeLink'" routerLink="/Licensing">Licensing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" [routerLinkActive]="'activeLink'" routerLink="/contactus">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="contact-bg py-4">
+        <h3>{{myData1}}</h3>
+        <h2>{{myData2}}</h2>
+        <div class="line">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <p class="text">{{myData3}}
+       <br>
+       {{myData4}}
+        </p>
+    </div>
+</div>

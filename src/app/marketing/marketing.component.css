@@ -1,0 +1,40 @@
+.marketing_heading,.head2{
+    
+    color: #f7327a;
+    
+    font-weight: 600;
+}
+.para1,.para2 p{
+    text-align: justify;
+    font-weight: 300;
+    opacity: 0.9;
+}
+.para2 h4{
+    font-size: larger;
+    font-weight: 400;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0%;
+}
+ul li{
+    height: 11rem;
+    width: 20rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.5s;
+}
+ul li img{
+    height: 100%;
+    width: 100%;
+}
+ul li:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,46 @@
+.card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card img{
+    height: 100%;
+}
+.heading
+{
+    color: #f7327a;
+    
+    font-weight: 600;
+}
+
+.filmdist p{
+    opacity: 0.9;
+    text-align: justify;
+    font-weight: 300;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0%;
+}
+ul li{
+    height: 11rem;
+    width: 20rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* border-radius: 1rem; */
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.5s;
+}
+ul li img{
+    height: 100%;
+    width: 100%;
+}
+ul li:hover{
+    transform: scale(1.1);
+}

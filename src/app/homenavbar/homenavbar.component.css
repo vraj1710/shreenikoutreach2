@@ -1,0 +1,41 @@
+
+.nav-link{
+    color: rgb(16, 14, 14) !important;
+    padding: 7px 10px;
+    font-size: large;
+}
+
+.activeLink{ 
+    
+    color: #f7327a !important;
+   
+}
+.navbar{
+   min-height: 70px !important;
+}
+ul .nav-item{
+    margin: 0 18px;
+    
+}
+.fas{
+    font-size: 2rem;
+    color: black;
+}
+ul{
+ text-align: center;
+    --bs-scroll-height: 274px !important;
+}
+@media (max-width:550px){
+    .navbar{
+        min-height: 45px !important;
+        padding: 2px !important;
+     }
+     .navbar-brand img{
+        height:45px ;
+        width:70px ;
+     }
+     .fas{
+        font-size: 1.5rem;
+    }
+}
+
